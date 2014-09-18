@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<tool id="fa_gc_content_2" name="Plot weather">
+  <description>using R to plot weather data</description>
+  <command interpreter="bash">boxplot_wei.sh $surveyacebData $output</command>
+  <inputs>
+     <param name="surveyacebdata" type="data" format="survey.aceb" label="Input Survey.aceb Data" />
+  </inputs>
+     <outputs>
+         <date format="jpg" name="boxplot" label="Boxplot"/>
+     </outputs>
+  
+  <help>
+This tool test a R routines to plot weather.
+  </help>
+
+</tool>
