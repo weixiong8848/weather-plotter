@@ -3,14 +3,15 @@
   <description>using R to plot weather data</description>
   <command interpreter="bash">boxplot_wei.sh $surveyacebData $output</command>
   <inputs>
-     <param name="surveyacebdata" type="data" format="survey.aceb" label="Input Survey.aceb Data" />
+     <param name="surveyacebdata" type="data" format=".aceb" label="Input Survey.aceb Data" />
   </inputs>
-     <outputs>
-         <date format="jpg" name="boxplot" label="Boxplot"/>
-     </outputs>
+  
+  <outputs>
+         <date format="png" name="boxplot" label="Boxplot"/>
+  </outputs>
   
   <help>
-This tool test a R routines to plot weather.
+This tool generate a boxplot for specific weather site.
   </help>
 
 </tool>
